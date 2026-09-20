@@ -1,0 +1,60 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>com.multitool.core</Name>
+  <DisplayName>Multitool</DisplayName>
+  <Description>The Multitool desktop application and its runtime.</Description>
+  <Version>0.3.7</Version>
+  <ReleaseDate>2026-09-20</ReleaseDate>
+  <Default>true</Default>
+  <ForcedInstallation>true</ForcedInstallation>
+  <SortingPriority>400</SortingPriority>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="45585310" OS="Any" UncompressedSize="98368577"/>
+  <DownloadableArchives>bin.7z,plugins.7z,share.7z</DownloadableArchives>
+  <SHA1>6312feedef8b728eb9149b7f4883b79ff8a157c2</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>com.multitool.plugin.git</Name>
+  <DisplayName>Git integration</DisplayName>
+  <Description>Git actions for the Multitool overlay.</Description>
+  <Version>0.3.7</Version>
+  <ReleaseDate>2026-09-20</ReleaseDate>
+  <Default>true</Default>
+  <SortingPriority>300</SortingPriority>
+  <Dependencies>com.multitool.core</Dependencies>
+  <UpdateFile CompressedSize="26219" OS="Any" UncompressedSize="67357"/>
+  <DownloadableArchives>bin.7z</DownloadableArchives>
+  <SHA1>c63bbd68010f2d0916672fb60a0fd23093529dfe</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>com.multitool.plugin.ue_tool</Name>
+  <DisplayName>Unreal Engine tools</DisplayName>
+  <Description>Unreal Engine actions for the Multitool overlay.</Description>
+  <Version>0.3.7</Version>
+  <ReleaseDate>2026-09-20</ReleaseDate>
+  <Default>true</Default>
+  <SortingPriority>290</SortingPriority>
+  <Dependencies>com.multitool.core</Dependencies>
+  <UpdateFile CompressedSize="783153" OS="Any" UncompressedSize="1033453"/>
+  <DownloadableArchives>bin.7z</DownloadableArchives>
+  <SHA1>06558aa61d7f4b358e81bc5ede7ea7df0c4e1b23</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>com.multitool.plugin_builder</Name>
+  <DisplayName>Plugin Builder</DisplayName>
+  <Description>Optional tool for creating and editing Multitool plugin packages.</Description>
+  <Version>0.3.7</Version>
+  <ReleaseDate>2026-09-20</ReleaseDate>
+  <Default>false</Default>
+  <SortingPriority>100</SortingPriority>
+  <Dependencies>com.multitool.core</Dependencies>
+  <UpdateFile CompressedSize="231602" OS="Any" UncompressedSize="657448"/>
+  <DownloadableArchives>bin.7z</DownloadableArchives>
+  <SHA1>82a894077cdd8bb11d235511924af4890f1dab13</SHA1>
+ </PackageUpdate>
+ <SHA1>5fbd2bd3a4baada8058ed4c8e1556a79ed6a7006</SHA1>
+ <MetadataName>2026-09-20-1155_meta.7z</MetadataName>
+</Updates>
