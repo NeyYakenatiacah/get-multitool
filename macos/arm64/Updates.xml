@@ -6,55 +6,55 @@
   <Name>com.multitool.core</Name>
   <DisplayName>Multitool</DisplayName>
   <Description>The Multitool desktop application and its runtime.</Description>
-  <Version>0.4.1</Version>
-  <ReleaseDate>2026-11-02</ReleaseDate>
+  <Version>0.4.4</Version>
+  <ReleaseDate>2026-11-06</ReleaseDate>
   <Default>true</Default>
   <ForcedInstallation>true</ForcedInstallation>
   <SortingPriority>400</SortingPriority>
   <Script>installscript.qs</Script>
-  <UpdateFile CompressedSize="14121774" OS="Any" UncompressedSize="52619511"/>
+  <UpdateFile CompressedSize="14156359" OS="Any" UncompressedSize="52751623"/>
   <DownloadableArchives>Multitool.app.7z,share.7z</DownloadableArchives>
-  <SHA1>5f9a1a1c0affa22edac2fda561b5ca76bed4f16f</SHA1>
+  <SHA1>ba72591a68cc929ed7ae709d55c5e5a3ef65cf22</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.multitool.plugin.git</Name>
   <DisplayName>Git integration</DisplayName>
   <Description>Git actions for the Multitool overlay.</Description>
-  <Version>0.4.1</Version>
-  <ReleaseDate>2026-11-02</ReleaseDate>
+  <Version>0.4.4</Version>
+  <ReleaseDate>2026-11-06</ReleaseDate>
   <Default>true</Default>
   <SortingPriority>300</SortingPriority>
   <Dependencies>com.multitool.core</Dependencies>
-  <UpdateFile CompressedSize="20848" OS="Any" UncompressedSize="133536"/>
+  <UpdateFile CompressedSize="21028" OS="Any" UncompressedSize="135087"/>
   <DownloadableArchives>plugins.7z</DownloadableArchives>
-  <SHA1>40a3740e99f672760a4c2c791277052678f5b3bd</SHA1>
+  <SHA1>d66d138854e57b9b5813fd27090eb87114521616</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.multitool.plugin.ue_tool</Name>
   <DisplayName>Unreal Engine tools</DisplayName>
   <Description>Unreal Engine actions for the Multitool overlay.</Description>
-  <Version>0.4.1</Version>
-  <ReleaseDate>2026-11-02</ReleaseDate>
+  <Version>0.4.4</Version>
+  <ReleaseDate>2026-11-06</ReleaseDate>
   <Default>true</Default>
   <SortingPriority>290</SortingPriority>
   <Dependencies>com.multitool.core</Dependencies>
-  <UpdateFile CompressedSize="58087" OS="Any" UncompressedSize="285084"/>
+  <UpdateFile CompressedSize="58304" OS="Any" UncompressedSize="286745"/>
   <DownloadableArchives>plugins.7z</DownloadableArchives>
-  <SHA1>8d591f80572be85dfeaa19abeb96a1e60af164ea</SHA1>
+  <SHA1>8d2c2af64925f7c1f3e6ec122e1e64fe3a56c14a</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>com.multitool.plugin_builder</Name>
   <DisplayName>Plugin Builder</DisplayName>
   <Description>Optional tool for creating and editing Multitool plugin packages.</Description>
-  <Version>0.4.1</Version>
-  <ReleaseDate>2026-11-02</ReleaseDate>
+  <Version>0.4.4</Version>
+  <ReleaseDate>2026-11-06</ReleaseDate>
   <Default>false</Default>
   <SortingPriority>100</SortingPriority>
   <Dependencies>com.multitool.core</Dependencies>
-  <UpdateFile CompressedSize="13786869" OS="Any" UncompressedSize="51149501"/>
+  <UpdateFile CompressedSize="13782804" OS="Any" UncompressedSize="51149501"/>
   <DownloadableArchives>Multitool Plugin Builder.app.7z</DownloadableArchives>
-  <SHA1>6f4ed2d2e94912fd14764ec0124ac563933f992d</SHA1>
+  <SHA1>dd4243b049c52552b236bd0f093faf0393d09cfe</SHA1>
  </PackageUpdate>
- <SHA1>fe26d5fba21e76867fdceab51bcaf55d18f51d23</SHA1>
- <MetadataName>2026-11-02-1308_meta.7z</MetadataName>
+ <SHA1>9ae2ea1c100f0130b8c462d9d50917f0053eb1c2</SHA1>
+ <MetadataName>2026-11-06-2006_meta.7z</MetadataName>
 </Updates>
